@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title class="MAIN1">Les Formulaires</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            font-family: Lato Black;
+            font-size: 5vw;
+            text-align: center;
+        }
+
+        .field1 {
+            background-color:#6a6a6a;
+        }
+
+
+        
+        .Nom1 {
+            color: white;
+        }
+        .Email1 {
+            color: white;
+        }
+        .Mdp1 {
+            color: white;
+        }
+        .phone1 {
+            color: white;
+        }
+
+        .field2 {
+            background-color:#6a6a6a;
+        }
+
+        #Type0 {
+            color: white;
+
+        }
+
+        #MF1 {
+            color: white;
+        }
+
+        .field3 {
+            background-color:#6a6a6a;
+            color: white;
+        }
+
+        .field4 {
+            background-color:#6a6a6a;
+            color: white;
+        }
+
+        .field5 {
+            background-color: #00d624;
+        }
+
+
+
+
+
+
+    </style>
+    </head>
+    <body>
+        <h1>Formulaire de Contact</h1>
+        <form action="">
+            <fieldset class="field1">
+                <legend><b></b></legend>
+                <label for="name"><b class="Nom1">Nom:</b></label>
+
+                <input type="text" placeholder="nom" id="name"><br>
+                <br>
+                <br>
+                <legend></legend>
+
+
+                <label for="mail"><b class="Email1">Adresse mail:</b></label>
+                <input type="email" value="" id="mail"><br>
+
+                <br>
+                <br>
+                <legend></legend>
+                <label for="pwd"><b class="Mdp1">Mot de passe:</b></label>
+                <input type="password" id="pwd"><br>
+                <br>
+                <br>
+
+
+                <label for="number"><b class="phone1">Téléphone:</b></label>
+                <input type="number" value="0647355443" id="number"><br>
+
+                </fieldset>
+
+
+
+                <br>
+                <br>
+                <fieldset class="field2">
+                <label><b id="Type0">Le genre :</b></label><br>
+                <label>
+                <br>
+                <br>
+                    <div id="MF1"><input type="radio" name="gender" value="male">
+                    Homme
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Femme</div>
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset class="field3">
+                <label for="birthdate"><b>
+                    Entrez votre date de naissance :
+                </b></label>
+                <br>
+                <br>
+                <input type="date" value="" id="birthdate">
+                <input type="submit" value="valider">
+
+            </fieldset>
+            <br>
+            <br>
+            <fieldset class="field4">
+                <label for="birthdate"><b>
+                    Espace Commentaire :
+                </b><br>
+                <br>
+                <br>
+                <textarea id="message" name="message"rows="10"cols="50"maxlength="500">Ici</textarea>
+            </fieldset>
+            <fieldset class="field5">
+                
+                <legend></legend>
+                <button type="button" onclick="alert('Vous avez cliqué sur le bouton!')">confirmer</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
